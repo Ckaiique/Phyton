@@ -1,0 +1,162 @@
+Subject: [PATCH] Aula Orientação OO Python
+---
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(revision 7bfc4a75752e80e37f651b4281f691f146e327fc)
++++ b/.idea/.gitignore	(revision 7bfc4a75752e80e37f651b4281f691f146e327fc)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(revision 7bfc4a75752e80e37f651b4281f691f146e327fc)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(revision 7bfc4a75752e80e37f651b4281f691f146e327fc)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(revision 7bfc4a75752e80e37f651b4281f691f146e327fc)
++++ b/.idea/misc.xml	(revision 7bfc4a75752e80e37f651b4281f691f146e327fc)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (oo)" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(revision 7bfc4a75752e80e37f651b4281f691f146e327fc)
++++ b/.idea/modules.xml	(revision 7bfc4a75752e80e37f651b4281f691f146e327fc)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/oo.iml" filepath="$PROJECT_DIR$/.idea/oo.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/oo.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/oo.iml b/.idea/oo.iml
+new file mode 100644
+--- /dev/null	(revision 7bfc4a75752e80e37f651b4281f691f146e327fc)
++++ b/.idea/oo.iml	(revision 7bfc4a75752e80e37f651b4281f691f146e327fc)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/venv" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(revision 7bfc4a75752e80e37f651b4281f691f146e327fc)
++++ b/.idea/vcs.xml	(revision 7bfc4a75752e80e37f651b4281f691f146e327fc)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+new file mode 100644
+--- /dev/null	(revision 7bfc4a75752e80e37f651b4281f691f146e327fc)
++++ b/main.py	(revision 7bfc4a75752e80e37f651b4281f691f146e327fc)
+@@ -0,0 +1,16 @@
++# This is a sample Python script.
++
++# Press Shift+F10 to execute it or replace it with your code.
++# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
++
++
++def print_hi(name):
++    # Use a breakpoint in the code line below to debug your script.
++    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
++
++
++# Press the green button in the gutter to run the script.
++if __name__ == '__main__':
++    print_hi('PyCharm')
++
++# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+Index: teste.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/teste.py b/teste.py
+new file mode 100644
+--- /dev/null	(revision 7bfc4a75752e80e37f651b4281f691f146e327fc)
++++ b/teste.py	(revision 7bfc4a75752e80e37f651b4281f691f146e327fc)
+@@ -0,0 +1,22 @@
++def cria_conta(numero, titular, saldo, limite):
++    conta = {"numero": numero, "titular": titular, "saldo": saldo, "limite": limite}
++    return conta
++
++def deposita(conta, valor):
++    conta["saldo"] += valor
++
++def saca(conta, valor):
++    conta["saldo"] -= valor
++
++def extrato(conta):
++    print("Saldo {}".format(conta["saldo"]))
++
++
++# >>> from teste import cria_conta, deposita, saca, extrato
++# >>> conta = cria_conta(123, "Nico", 55.0, 1000.0)
++# >>> deposita(conta, 300.0)
++# >>> extrato(conta)
++# Saldo 355.0
++# >>> saca(conta, 100.0)
++# >>> extrato(conta)
++# Saldo 255.0

@@ -11,6 +11,9 @@ def saca(conta, valor):
 def extrato(conta):
     print("Saldo {}".format(conta["saldo"]))
 
+def test():
+   print('OI')
+
 
 # >>> from teste import cria_conta, deposita, saca, extrato
 # >>> conta = cria_conta(123, "Nico", 55.0, 1000.0)
